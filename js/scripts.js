@@ -28,7 +28,6 @@ var Painter = new function(){
 	
 	var render = function(){
 		points = JSON.parse(nodes['text'].value);
-		console.dir(points);
 		// Draw canvas
 		points.forEach(function(item){
 			drawCanvasPoints(item);
